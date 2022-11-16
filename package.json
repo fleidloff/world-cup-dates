@@ -1,0 +1,33 @@
+{
+  "name": "world-cup-dates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "wcdates": "bin/wcdates"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fleidloff/world-cup-dates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fleidloff/world-cup-dates/issues"
+  },
+  "homepage": "https://github.com/fleidloff/world-cup-dates#readme",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "esm": "^3.2.25",
+    "inquirer": "^9.1.4",
+    "moment": "^2.29.4",
+    "node-fetch": "^2.6.7"
+  }
+}
